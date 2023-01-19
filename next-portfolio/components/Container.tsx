@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Container(component?: IComponent) {
   return (
-    <div>
+    <div className='container'>
         Container
         {component?.children}
     </div>
