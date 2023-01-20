@@ -2,8 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-import Container from '@/components/Container'
+import Container from '@/components/container/Container'
 import Summary from './summary'
+import SidebarSocialMedia from '@/components/sidebar-social-media/SidebarSocialMedia'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
         <Container>
           <Summary></Summary>
+          <SidebarSocialMedia />
         </Container>
       </main>
     </>
