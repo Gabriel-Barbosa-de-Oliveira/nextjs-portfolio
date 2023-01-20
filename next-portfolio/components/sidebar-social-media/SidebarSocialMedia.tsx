@@ -3,8 +3,8 @@ import React from 'react'
 export default function SidebarSocialMedia() {
 
   return (
-    <nav>
-      <ul>
+    <nav className='fixed-sidebar'>
+      <ul className='sidebar-container'>
         <li>
           <a href="https://github.com/bchiang7" aria-label="GitHub" target="_blank" rel="noreferrer">Github</a>
         </li>
