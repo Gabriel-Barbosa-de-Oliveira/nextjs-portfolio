@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Container from '@/components/container/Container'
 import Summary from './summary'
 import SidebarSocialMedia from '@/components/sidebar-social-media/SidebarSocialMedia'
+import Header from '@/components/header/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export default function Home() {
       </Head>
       <main>
         <Container>
-          <Summary></Summary>
+          <Header />
           <SidebarSocialMedia />
         </Container>
       </main>
