@@ -15,13 +15,14 @@ export default function Header() {
                     />
                 </a>
             </div>
-            <nav>
-                <ul> 
+            <nav className='header-navigation'>
+                <ol> 
                     <li>Sobre</li>
                     <li>Experiencia</li>
                     <li>Trabalho</li>
                     <li>Contato</li>
-                </ul>
+                    <li>Curriculo</li>
+                </ol>
             </nav>
         </header>
     )
