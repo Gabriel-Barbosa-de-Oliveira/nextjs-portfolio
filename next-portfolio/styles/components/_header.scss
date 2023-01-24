@@ -23,7 +23,7 @@
             position: relative;
             counter-increment: li 1;
             &:hover {
-                color: #333;
+                color: $hoverMainColor;
             }
         }
     }

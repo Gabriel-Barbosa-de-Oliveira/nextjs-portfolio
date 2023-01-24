@@ -1,4 +1,39 @@
 .btn { 
     height: 40px;
     min-width: 100px;
+    cursor: pointer;
+}
+
+@mixin fillType ($themeName){
+	@if($themeName == "primary"){
+		color: $mainFontColor;
+        border: 1px solid $borderMainColor;
+        &:hover {
+            background-color: $hoverMainColor;
+            color: $baseColor;
+        }
+	}@else{
+		color: $secondaryFontColor;
+        border: 1px solid $borderSecondaryColor;
+        &:hover {
+            background-color: $hoverSecondaryColor;
+            color: $mainFontColor;
+        }
+    }	
+}
+
+.btn-bordered {
+    background-color: transparent;
+    &.primary {
+        @include fillType("primary");
+    }
+    &.secondary {
+        @include fillType("secondary");
+    }    
+
+    &:hover{
+        transition-delay: 100ms;
+        transition-timing-function: ease-in;
+        transition: 0.2s;
+    }
 }

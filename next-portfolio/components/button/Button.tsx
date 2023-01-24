@@ -6,10 +6,11 @@ export default function Button(component?: IButton) {
 
     
     const fillClassType = component?.fillType === "bordered" ? "btn-bordered" : "btn-filled";  
+    const buttonThemeName = component?.theme;
     
     return (
-    <button className={`btn ${fillClassType}`}> 
-        {component?.text}
+    <button className={`btn ${fillClassType} ${buttonThemeName}`}> 
+        <span>{component?.text}</span>
     </button>
   )
 }
