@@ -1,4 +1,5 @@
 .container {
   @include containerFullSize;
-  background-color: $baseColor;
+  background-color: $backgroundMainColor;
+  color: $mainFontColor;
 }

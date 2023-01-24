@@ -5,7 +5,7 @@
     left: 40px;
     right: auto;
     z-index: 1;
-    color: var(--light-slate);
+    color: $mainFontColor;
     height: 400px;
 }
 
@@ -34,7 +34,7 @@
         width: 1px;
         height: 160px;
         margin: 0 auto;
-        background-color: #000;
+        background-color: $borderMainColor;
     }
 
 }
