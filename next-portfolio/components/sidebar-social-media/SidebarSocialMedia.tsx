@@ -11,10 +11,10 @@ export default function SidebarSocialMedia() {
       <li key={item.id}>
         <a href={item.url} aria-label={item.ariaLabel} target="_blank" rel="noreferrer">
           <Image
-            src={item.filePath}
-            alt={item.alt}
-            width={item.width}
-            height={item.height}
+            src={item.image.filePath}
+            alt={item.image.alt}
+            width={item.image.width}
+            height={item.image.height}
             priority
           />
         </a>

@@ -1,9 +1,8 @@
+import { IImage } from "./IImage"
+
 export interface ISocialMedia {
     id: string,
-    filePath: string,
-    alt: string,
-    width: number,
-    height: number,
+    image: IImage,
     class?: string,
     url: string,
     ariaLabel: string
