@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Button from '../button/button'
 
 export default function Header() {
     return (
@@ -16,12 +17,12 @@ export default function Header() {
                 </a>
             </div>
             <nav className='header-navigation'>
-                <ol> 
+                <ol>
                     <li>Sobre</li>
                     <li>Experiencia</li>
                     <li>Trabalho</li>
                     <li>Contato</li>
-                    <li>Curriculo</li>
+                    <li><Button fillType={'bordered'} text={"Curriculo"} theme={'primary'}></Button></li>
                 </ol>
             </nav>
         </header>
