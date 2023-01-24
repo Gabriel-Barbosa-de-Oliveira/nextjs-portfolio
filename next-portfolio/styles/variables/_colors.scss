@@ -1,0 +1,14 @@
+$baseColor: #112240;
+
+$borderMainColor: lighten($baseColor, 100%);
+$borderSecondaryColor: darken($baseColor, 100%);
+$hoverMainColor: lighten(desaturate($baseColor, 36), 46%);
+$hoverSecondaryColor: darken(desaturate(#fff, 36), 46%);
+$secondaryColor: darken($baseColor, 10%);
+$backgroundMainColor: $baseColor;
+$botaoDestaque: lighten($baseColor, 6%);
+$botaoDestaqueHover: darken( $baseColor, 10%);
+$botaoDestaqueBorda: lighten($baseColor, 7%);
+$botaoDestaqueFonte: #FFFFFF;
+$mainFontColor: #FFFFFF;
+$secondaryFontColor: #000;
