@@ -1,0 +1,18 @@
+.entry-container {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 45px;
+    @include containerFullSize;
+
+    span {
+        margin: 0px 0px 30px 4px;
+        color: #64ffda;
+        font-size: clamp(14px, 5vw, 16px);
+        font-weight: 400;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}

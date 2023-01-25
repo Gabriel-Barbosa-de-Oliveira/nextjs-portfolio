@@ -6,6 +6,7 @@ import Container from '@/components/container/Container'
 import Summary from './summary'
 import SidebarSocialMedia from '@/components/sidebar-social-media/SidebarSocialMedia'
 import Header from '@/components/header/Header'
+import EntrySection from '@/components/entry-section/EntrySection'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function Home() {
       <main>
         <Container>
           <Header />
+          <EntrySection />
           <SidebarSocialMedia />
         </Container>
       </main>
