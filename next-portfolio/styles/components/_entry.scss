@@ -3,7 +3,6 @@
     align-items: start;
     flex-direction: column;
     padding: 45px;
-    @include containerFullSize;
 
     span {
         margin: 0px 0px 30px 4px;
@@ -14,5 +13,8 @@
 
     h1 {
         font-size: 60px;
+        &.subtitle{
+            color: $subtitle;
+        }
     }
 }
