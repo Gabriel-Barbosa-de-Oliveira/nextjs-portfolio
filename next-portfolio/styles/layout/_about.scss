@@ -1,0 +1,9 @@
+.about-container {
+    @include centeredFlexContainer;
+    @include containerFullSize;
+
+    .about-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
