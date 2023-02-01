@@ -1,3 +1,4 @@
+import About from '@/components/about/about'
 import Container from '@/components/container/Container'
 import EntrySection from '@/components/entry-section/EntrySection'
 import Header from '@/components/header/Header'
@@ -19,8 +20,9 @@ export default function Home() {
       <main>
         <Header />
         <Container>
-          <EntrySection />
           <SidebarSocialMedia />
+          <EntrySection />
+          <About />
         </Container>
       </main>
     </>
