@@ -11,13 +11,15 @@ export default function About() {
 
                 </div>
                 <div className='about-image'>
-                    <Image
-                        src="/me.jpeg"
-                        alt="Gabriel Picture"
-                        width={200}
-                        height={250}
-                        priority
-                    />
+                    <div className='wrapper-image'>
+                        <Image
+                            src="/me.jpeg"
+                            alt="Gabriel Picture"
+                            width={250}
+                            height={300}
+                            priority
+                        />
+                    </div>
                 </div>
             </div>
         </section>

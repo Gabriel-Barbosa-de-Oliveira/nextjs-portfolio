@@ -2,8 +2,59 @@
     @include centeredFlexContainer;
     @include containerFullSize;
 
-    .about-content {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    h1 {
+        font-size: 40px;
     }
+
+    .about-content {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-gap: 50px;
+        align-items: start;
+        justify-items: center;
+    }
+
+    .about-image {
+        position: relative;
+        max-width: 340px;
+    }
+
+    .wrapper-image {
+        box-shadow: 0 10px 30px -15px rgb(2 12 27 / 70%);
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        display: block;
+        position: relative;
+        width: 100%;
+        
+        img{
+            z-index: 1;
+            border-radius: 4px;
+        }
+
+        // img {
+        //     position: relative;
+        //     border-radius: 4px;
+        //     mix-blend-mode: multiply;
+        //     filter: grayscale(100%) contrast(1);
+        //     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        // }
+
+        &:after {
+            position: absolute;
+            display: block;
+            content: '';
+            padding-bottom: 100%;
+            border: 1px solid #64ffda;
+            top: 30px;
+            left: 50px;
+            width: 220px;
+            height: 30px;
+            border-radius: 4px;
+            z-index: 0;
+        }
+    }
+
+    // .about-text::after {}
+
 }
