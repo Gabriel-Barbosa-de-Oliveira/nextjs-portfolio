@@ -2,6 +2,10 @@
     @include centeredFlexContainer;
     @include containerFullSize;
 
+    @include devices(tablet) {
+        padding: 30px;
+    }
+
 
     h1 {
         font-size: 30px;
@@ -15,10 +19,21 @@
         grid-gap: 50px;
         align-items: start;
         justify-items: center;
+
+        @include devices(tablet) {
+            grid-gap: 20px;
+        }
+
+        @include devices(mobile) {
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: justify;
+        }
     }
 
     .about-text {
         line-height: 1.4em;
+
         p {
             margin: 0px 0px 15px;
         }
@@ -77,13 +92,13 @@
 
 }
 
-@media screen and (max-width: 768px) {
-    .about-container {
-        padding: 30px;
-        .about-content {
-            display: grid;
-            grid-template-columns: 1fr;
-            text-align: justify;
-        }
-    }
-}
+// @media screen and (max-width: 768px) {
+//     .about-container {
+//         padding: 30px;
+//         .about-content {
+//             display: grid;
+//             grid-template-columns: 1fr;
+//             text-align: justify;
+//         }
+//     }
+// }
