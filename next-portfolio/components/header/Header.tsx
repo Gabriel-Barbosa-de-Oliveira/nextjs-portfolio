@@ -25,6 +25,15 @@ export default function Header() {
                     <li><Button fillType={'bordered'} text={"Curriculo"} theme={'primary'}></Button></li>
                 </ol>
             </nav>
+            <nav className='hamburguer-navigation'>
+                <Image
+                    src="/menu.svg"
+                    alt="Menu"
+                    width={42}
+                    height={42}
+                    priority
+                />
+            </nav>
         </header>
     )
 }

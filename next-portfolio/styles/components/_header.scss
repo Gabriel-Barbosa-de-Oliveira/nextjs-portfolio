@@ -9,6 +9,9 @@
     top: 0;
     z-index: 1;
     background-color: $baseColor;
+    @include devices(mobile){
+        padding: 0 20px;
+    }
 }
 
 .header-navigation {
@@ -29,5 +32,16 @@
                 color: $hoverMainColor;
             }
         }
+    }
+
+    @include devices(mobile){
+        display: none;
+    }
+}
+
+.hamburguer-navigation{
+    display: none;
+    @include devices(mobile){
+        display: inline-block;
     }
 }
