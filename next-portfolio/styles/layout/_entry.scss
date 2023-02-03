@@ -1,12 +1,7 @@
 .entry-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    // padding: 45px;
-    text-align: left;
-    height: 100%;
 
+    @include centeredFlexContainer;
+    @include containerFullSize;
 
     .entry-content {
         padding: 20px;

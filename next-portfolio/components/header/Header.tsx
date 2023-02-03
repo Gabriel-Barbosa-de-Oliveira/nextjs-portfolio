@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Button from '../button/button'
+import Button from '../button/Button'
 
 export default function Header() {
     return (
