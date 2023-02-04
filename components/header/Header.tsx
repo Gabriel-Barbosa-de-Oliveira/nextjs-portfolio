@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import Button from '../button/Button'
 
@@ -15,7 +16,7 @@ export default function Header() {
     return (<>
         <header className='header-container'>
             <div>
-                <a href='/'>
+                <Link href='/'>
                     <Image
                         src="/gabriel.svg"
                         alt="Gabriel Logo"
@@ -23,7 +24,7 @@ export default function Header() {
                         height={42}
                         priority
                     />
-                </a>
+                </Link>
             </div>
             <nav className='header-navigation'>
                 <ol>
