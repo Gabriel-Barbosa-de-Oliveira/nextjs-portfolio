@@ -1,5 +1,4 @@
-import { IButton } from '@/interfaces/IButton'
-import { IComponent } from '@/interfaces/IComponent'
+import { IButton } from '../../interfaces/IButton'
 import React from 'react'
 
 export default function Button(component?: IButton) {

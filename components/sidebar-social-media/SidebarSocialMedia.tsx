@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
-import { socialMediaList } from '@/pages/api/socialMedia';
+import { socialMediaList } from '../../pages/api/socialMedia';
 import { ISocialMedia } from '@/interfaces/ISocialMedia';
 
 export default function SidebarSocialMedia() {

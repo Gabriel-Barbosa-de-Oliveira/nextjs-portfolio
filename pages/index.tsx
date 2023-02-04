@@ -1,8 +1,8 @@
-import About from '@/components/about/about'
-import Container from '@/components/container/Container'
-import EntrySection from '@/components/entry-section/EntrySection'
-import Header from '@/components/header/Header'
-import SidebarSocialMedia from '@/components/sidebar-social-media/SidebarSocialMedia'
+import About from '../components/about/About'
+import Container from '../components/container/Container'
+import EntrySection from '../components/entry-section/EntrySection'
+import Header from '../components/header/Header'
+import SidebarSocialMedia from '../components/sidebar-social-media/SidebarSocialMedia'
 import { Inter } from '@next/font/google'
 import Head from 'next/head'
 
