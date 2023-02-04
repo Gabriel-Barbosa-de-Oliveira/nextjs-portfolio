@@ -22,7 +22,7 @@ export default function About() {
                             src="/me.jpeg"
                             alt="Gabriel Picture"
                             width={250}
-                            height={300}
+                            height={320}
                             priority
                         />
                     </div>
