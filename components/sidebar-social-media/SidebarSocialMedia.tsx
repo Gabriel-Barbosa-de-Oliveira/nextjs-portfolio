@@ -15,7 +15,6 @@ export default function SidebarSocialMedia() {
             alt={item.image.alt}
             width={item.image.width}
             height={item.image.height}
-            priority
           />
         </a>
       </li>
