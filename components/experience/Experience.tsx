@@ -15,6 +15,8 @@ export default class Experience extends Component {
               height={250}
               priority
             />
+
+            <span>IBM</span>
           </div>
           <div className='image-container'>
             <Image
@@ -24,6 +26,8 @@ export default class Experience extends Component {
               height={250}
               priority
             />
+            <span>GSW</span>
+
           </div>
           <div className='image-container'>
             <Image
@@ -33,6 +37,7 @@ export default class Experience extends Component {
               height={250}
               priority
             />
+            <span>Hipr Sistemas</span>
           </div>
         </div>
 
