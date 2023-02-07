@@ -5,6 +5,7 @@ import Header from '../components/header/Header'
 import SidebarSocialMedia from '../components/sidebar-social-media/SidebarSocialMedia'
 import { Inter } from '@next/font/google'
 import Head from 'next/head'
+import Experience from '../components/experience/Experience'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function Home() {
           <SidebarSocialMedia />
           <EntrySection />
           <About />
+          <Experience />
         </Container>
       </main>
     </>
